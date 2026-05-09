@@ -218,13 +218,18 @@ public class Producer {
 
             ProducerRecord<String, byte[]> record = new ProducerRecord<>("lab-topic", "key", message);
 
-            long start = System.currentTimeMillis();
-            producer.send(record).get(); // to make the call sync as the kafka default is async
-            long end = System.currentTimeMillis();
+            // long start = System.currentTimeMillis();
+            producer.send(record, (metadata, exception) -> {
+                if (exception != null) {
+                    System.err.println("Send failed: " + exception.getMessage());
+                }
+            });
+
+            // long end = System.currentTimeMillis();
 
             // responseTimes.add(end - start);
         }
-
+        producer.flush();
         // sorting to find the median
         // Collections.sort(responseTimes);
         // System.out.println("Median Producer Response Time: " + responseTimes.get(500)
@@ -329,47 +334,127 @@ public class Consumer {
 **Output**
 ![Results](consumerLatency.png)
 
+### Throughput
 
+- Trying the built in script **for producer** with :
+--throughput 5000: This limits the script to 5,000 messages per second.
 
-
-
-# JMS – Apache ActiveMQ
-## Overview
-This part evaluates the performance of Java Message Service (JMS) using Apache ActiveMQ as the message broker. The following performance aspects were measured:
-
-- Response Time for Producer API
-- Response Time for Consumer API
-- Maximum Throughput
-- Median Latency between message production and consumption
-
-The implementation was developed in Java using the JMS API and ActiveMQ.
-
----
-
-# Technologies Used
-
-- Java 11
-- Apache ActiveMQ
-- JMS API (`javax.jms`)
-- Maven
-- Apache JMeter (for throughput testing)
-
----
-
-# Project Structure
-
-```text
-src/main/java/com/jms/
-
-    Producer.java
-    Consumer.java
-
-message.txt
+```sh
+./bin/kafka-producer-perf-test.sh \
+--topic lab-topic \
+--num-records 1000000 \
+--record-size 1000 \
+--throughput 5000 \
+--producer-props bootstrap.servers=localhost:9092
 ```
 
----
+**Output**
+![Results](5000.png)
 
-# ActiveMQ Setup
+throughput 5000 successfully sent
+
+**Output**
+![Results](10000.png)
+
+throughput 10000 successfully sent
+
+**Output**
+![Results](20000.png)
+
+throughput 20000 successfully sent
+
+**Output**
+![Results](40000.png)
+
+throughput 40000 successfully sent
+
+**Output**
+![Results](100,000.png)
+
+throughput 100,000 successfully sent
+
+**Output**
+![Results](200,000.png)
+
+throughput 200,000  not successfully sent only around 140,000 messages were sent per second
+
+- Trying the built in script **for consumer** with :
+
+```sh
+./bin/kafka-consumer-perf-test.sh \
+--bootstrap-server localhost:9092 \
+--topic lab-topic \
+--messages 1000000 \
+--threads 1 \
+--print-metrics
+```
+
+**Output**
+
+max throuphput for consumer:
+
+![Results](maxThroughput.png)
+
+## Integration
+
+**1. Research Methodology**
+
+To assess Kafka's integration capabilities, I researched the official Apache Kafka Documentation, the Confluent Hub (the primary repository for Kafka connectors), and technical whitepapers regarding Kafka Connect.  
++1
+
+**2. Language Support**
+
+Kafka offers extensive support for various programming languages beyond Java, which is critical for organizations with diverse tech stacks:  
+
+Official Clients: Java and Scala (Native).  
+
+Community & Partner Clients: C/C++, Python, Go, .NET, and Rust.
+
+Protocol Support: Because Kafka uses a binary protocol over TCP, any language capable of socket programming can implement a client.
+
+**3. Data Intensive Ecosystem Integrations**
+
+Kafka’s primary strength in data-intensive use cases is its "Out-of-the-box" integration via Kafka Connect.  
++1
+
+A - Hadoop Ecosystem
+
+HDFS Sink Connector: Allows for seamless streaming of data from Kafka partitions into Hadoop Distributed File System (HDFS) for long-term storage and batch processing.  
+
+Hive Integration: Data can be streamed directly into Hive tables to enable SQL-based analytics on real-time data.
+
+B - Columnar & NoSQL Databases
+
+Cassandra Sink: As specifically requested in the lab, Kafka integrates easily with Cassandra. The connector handles the mapping of Kafka messages to Cassandra rows, supporting high-speed writes to handle data-intensive workloads.  
+
+Elasticsearch: Often used for real-time search and indexing of log data streamed through Kafka.
+
+C - Cloud and Data Warehousing
+
+Amazon S3 / Google Cloud Storage: Standard connectors exist to "archive" Kafka streams into cloud buckets for "Data Lake" architectures.
+
+Snowflake / BigQuery: Direct streaming into modern cloud data warehouses for immediate BI reporting.
+
+**4. Summary of Integration Advantages**
+ 
+- Kafka Connect	-- > A declarative way to link Kafka to databases without writing custom code.
+  
+- Kafka Streams -- > An embedded library to process data while it is in transit (filtering, joining, aggregating).
+
+- Schema Registry	-- > Ensures that data formats (like Avro or Protobuf) stay consistent as they move from a Producer to a Hadoop sink.
+  
+  **5. References**
+
+- Apache Kafka Documentation. "Kafka Connect Queries and Integration."
+
+- Confluent Inc. "Kafka Connectors for Cassandra and Hadoop."
+
+
+
+# JMS- ActiveMQ
+
+
+## ActiveMQ Setup
 
 ## Start ActiveMQ Broker
 
@@ -395,9 +480,7 @@ tcp://localhost:61616
 
 # Queue Names
 
-
-Response Time: broker-queue3
-Latency Benchmark | latency-queue1
+ latency-queue1
 
 ---
 
@@ -434,7 +517,56 @@ Measure the response time of the JMS produce API which is how long the producer 
 -Msg Sent 998 : 0 ms
 -Msg Sent 999 : 1 ms
 Median Producer Response Time = 0 ms
+![median-producer](<median produser resp-time-1.png>)
+## producer code 
 
+```java
+package com.jms;
+
+// import jakarta.jms.*;
+import javax.jms.*;
+import org.apache.activemq.ActiveMQConnectionFactory;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Producer1 {
+    public static void main(String[] args) throws Exception {
+        //setup
+        ConnectionFactory factory=new ActiveMQConnectionFactory("tcp://localhost:61616"); //creates object responsible for creating broker connections
+        Connection connection = factory.createConnection(); //Actually opens connection to broker
+        connection.start(); //activate connection
+        Session session= connection.createSession(false, Session.AUTO_ACKNOWLEDGE); //not transactional(non atomic), no need to acknowledge
+        Queue queue= session.createQueue("broker-queue");// where produces sens events
+
+        //create producer
+        MessageProducer producer=session.createProducer(queue);
+
+        //Create Message
+        String text = Files.readString(Paths.get("message.txt"));
+        
+        ArrayList<Long> times = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            TextMessage message = session.createTextMessage(text);
+            long start =System.currentTimeMillis();
+            producer.send(message);
+            long responseTime = (System.currentTimeMillis() - start);
+            times.add(responseTime);
+            System.out.println("Msg Sent " + i +" : " + responseTime + " ms"
+            );
+        }
+        connection.close();
+        // Calculate median
+        Collections.sort(times);
+        long median =times.get(times.size() / 2);
+        System.out.println("\nMedian Produce Response Time = "+ median + " ms");
+
+
+
+    }
+}
+```
 # Consumer Response Time
 
 ## Objective
@@ -472,7 +604,49 @@ Receive 997 = 2 ms
 Receive 998 = 0 ms
 Receive 999 = 1 ms
 Median Consume Response Time = 0ms
+![median-consumer](<median consumer resp-time-1.png>)
 ---
+```java
+package com.jms;
+import java.util.ArrayList;
+import java.util.Collections;
+
+// import jakarta.jms.*;
+import javax.jms.*;
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+public class consumer1 {
+    public static void main(String[] args) throws Exception {
+
+        //setup
+        ConnectionFactory factory=new ActiveMQConnectionFactory("tcp://localhost:61616"); //creates object responsible for creating broker connections
+        Connection connection = factory.createConnection(); //Actually opens connection to broker
+        connection.start(); //activate connection
+        Session session= connection.createSession(false, Session.CLIENT_ACKNOWLEDGE); //not transactional(non atomic), consumer acknowledge
+        Queue queue= session.createQueue("broker-queue");// where produces sens events
+
+        MessageConsumer consumer =session.createConsumer(queue);
+
+        ArrayList<Long> times = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            long start =System.currentTimeMillis();
+            Message message =consumer.receive();
+            message.acknowledge();
+            long responseTime = (System.currentTimeMillis() - start)  ;
+            times.add(responseTime);
+            System.out.println("Receive " + i +" = " + responseTime + " ms");
+        }
+
+        // Calculate median
+        Collections.sort(times);
+        long median =times.get(times.size() / 2);
+        System.out.println("\nMedian Consume Response Time = "+ median + "ms");
+
+        connection.close();
+    }
+}
+```
+
 
 # 2- Maximum Throughput
 
@@ -486,11 +660,14 @@ During throughput benchmarking, increasing the target throughput beyond a certai
 This indicates that the system reached its practical throughput saturation point. At very high target rates, JVM scheduling overhead, ActiveMQ processing capacity, operating system thread scheduling, and Java timing limitations (`Thread.sleep`) became the bottleneck rather than the configured target throughput itself.
 
 Therefore, the maximum practical producer throughput on the test environment was approximately 16K–18K messages/sec for 1KB messages using non-persistent delivery mode on localhost.
+![p-throughput](prod-throughput-1.png)
+
 
 
 ### Consumer Throughput Observation
 At high target throughput values, the actual throughput saturated around 15K messages/sec due to JVM scheduling limitations, ActiveMQ processing capacity, and operating system timing granularity. Increasing the target throughput beyond this value did not significantly improve the actual achieved throughput.
 
+![c-throughput](c-throughput-1.png)
 
 # 4. Median Latency
 
@@ -505,7 +682,114 @@ Measure end-to-end delay introduced by the messaging system.
 4. Latency was computed for 10,000 messages.
 5. Median latency was calculated.
 
+![latency](latency-1.png)
 
+## producer code 
+```java
+package com.jms;
+
+import javax.jms.*;
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class Producer2 {
+
+    public static void main(String[] args) throws Exception {
+
+        //setup
+        ConnectionFactory factory=new ActiveMQConnectionFactory("tcp://localhost:61616"); //creates object responsible for creating broker connections
+
+        Connection connection = factory.createConnection(); //Actually opens connection to broker
+
+        connection.start(); //activate connection
+
+        Session session= connection.createSession(false, Session.AUTO_ACKNOWLEDGE); //not transactional(non atomic), no need to acknowledge
+
+        Queue queue= session.createQueue("latency-queue3");// where producer sends events
+
+        //create producer
+        MessageProducer producer=session.createProducer(queue);
+
+        producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT); //avoid disk persistence overhead to avoid extra delays
+
+        //Create Message
+        String text = Files.readString(Paths.get("message.txt"));
+
+        for (int i = 0; i < 10000; i++) {
+
+            TextMessage message =session.createTextMessage(text);
+            long sendTime =System.currentTimeMillis(); //timestamp before sending
+            message.setLongProperty(
+                    "sendTime",
+                    sendTime       ); //attach timestamp to message
+
+            producer.send(message);
+            if (i % 1000 == 0) {System.out.println("Sent " + i);}
+        }
+        connection.close();
+        System.out.println("\n10K messages sent");
+    }
+}
+```
+
+## consumer code 
+
+```java
+package com.jms;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+// import jakarta.jms.*;
+import javax.jms.*;
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+public class Consumer2 {
+
+    public static void main(String[] args) throws Exception {
+
+        //setup
+        ConnectionFactory factory=new ActiveMQConnectionFactory("tcp://localhost:61616"); //creates object responsible for creating broker connections
+        Connection connection = factory.createConnection(); //Actually opens connection to broker
+        connection.start(); //activate connection
+
+        Session session= connection.createSession(false, Session.CLIENT_ACKNOWLEDGE); //not transactional(non atomic), consumer acknowledge
+
+        Queue queue= session.createQueue("latency-queue3");// where producer sends events
+        MessageConsumer consumer =session.createConsumer(queue);
+
+        ArrayList<Double> times = new ArrayList<>();
+
+        for (int i = 0; i < 10000; i++) {
+
+            Message message = consumer.receive();
+            long receiveTime = System.currentTimeMillis(); //timestamp at message consumption
+            message.acknowledge();
+            long sendTime = message.getLongProperty("sendTime"); //retrieve producer timestamp
+
+            double latency =
+                    (receiveTime - sendTime); 
+
+            times.add(latency);
+
+            if (i % 1000 == 0) {System.out.println("Processed " + i);
+}
+        }
+
+        // Calculate median
+        Collections.sort(times);
+        double median =
+                times.get(times.size() / 2);
+
+        System.out.println("\nMedian Latency = "+ median + " ms" );
+
+        connection.close();
+    }
+}
+
+```
 # JMS Usability Evaluation
 
 ## Tool Setup Overhead
@@ -734,4 +1018,5 @@ ActiveMQ provides:
 which simplify queue monitoring and broker management.
 
 ---
+
 

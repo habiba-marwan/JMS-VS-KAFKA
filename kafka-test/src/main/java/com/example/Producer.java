@@ -31,13 +31,18 @@ public class Producer {
 
             ProducerRecord<String, byte[]> record = new ProducerRecord<>("lab-topic", "key", message);
 
-            long start = System.currentTimeMillis();
-            producer.send(record).get(); // to make the call sync as the kafka default is async
-            long end = System.currentTimeMillis();
+            // long start = System.currentTimeMillis();
+            producer.send(record, (metadata, exception) -> {
+                if (exception != null) {
+                    System.err.println("Send failed: " + exception.getMessage());
+                }
+            });
+
+            // long end = System.currentTimeMillis();
 
             // responseTimes.add(end - start);
         }
-
+        producer.flush();
         // sorting to find the median
         // Collections.sort(responseTimes);
         // System.out.println("Median Producer Response Time: " + responseTimes.get(500)
