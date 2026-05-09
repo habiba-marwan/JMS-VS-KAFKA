@@ -2344,3 +2344,162 @@ May 09, 2026 6:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 4424
 May 09, 2026 6:24:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 4432
+May 09, 2026 6:46:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4440
+May 09, 2026 6:46:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4443
+2026.05.09 18:46:53 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:46:55 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:46:55 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:46:55 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:46:55 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:46:55 INFO  time: compiled kafka-test in 1.88s[0m
+2026.05.09 18:47:04 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:47:05 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:47:05 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:47:05 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:47:05 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:47:05 INFO  time: compiled kafka-test in 1.53s[0m
+May 09, 2026 6:48:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4518
+2026.05.09 18:49:55 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:49:55 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:49:55 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:49:55 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:49:55 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:49:55 WARN  javac exited with exit code 1[0m
+2026.05.09 18:49:55 INFO  time: compiled kafka-test in 0.74s[0m
+May 09, 2026 6:50:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4610
+2026.05.09 18:51:38 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test -Dmaven.home=/var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals10109426358075518530 -cp /var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals10109426358075518530/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'[0m
+2026.05.09 18:51:40 INFO  [INFO] Scanning for projects...[0m
+2026.05.09 18:51:40 INFO  [ERROR] [ERROR] Some problems were encountered while processing the POMs:[0m
+2026.05.09 18:51:40 INFO  [FATAL] Non-parseable POM /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/pom.xml: Duplicated tag: 'properties' (position: START_TAG seen ...</properties>\n  <properties>... @20:15)  @ line 20, column 15[0m
+2026.05.09 18:51:40 INFO   @ [0m
+2026.05.09 18:51:40 INFO  [ERROR] The build could not read 1 project -> [Help 1][0m
+2026.05.09 18:51:40 INFO  [ERROR]   [0m
+2026.05.09 18:51:40 INFO  [ERROR]   The project  (/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/pom.xml) has 1 error[0m
+2026.05.09 18:51:40 INFO  [ERROR]     Non-parseable POM /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/pom.xml: Duplicated tag: 'properties' (position: START_TAG seen ...</properties>\n  <properties>... @20:15)  @ line 20, column 15 -> [Help 2][0m
+2026.05.09 18:51:40 INFO  [ERROR] [0m
+2026.05.09 18:51:40 INFO  [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.[0m
+2026.05.09 18:51:40 INFO  [ERROR] Re-run Maven using the -X switch to enable full debug logging.[0m
+2026.05.09 18:51:40 INFO  [ERROR] [0m
+2026.05.09 18:51:40 INFO  [ERROR] For more information about the errors and possible solutions, please read the following articles:[0m
+2026.05.09 18:51:40 INFO  [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException[0m
+2026.05.09 18:51:40 INFO  [ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException[0m
+2026.05.09 18:51:40 INFO  time: ran 'mvn bloopInstall' in 2.39s[0m
+2026.05.09 18:51:40 INFO  Disconnecting from Bloop session...[0m
+2026.05.09 18:51:41 ERROR Maven command failed: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test -Dmaven.home=/var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals10109426358075518530 -cp /var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals10109426358075518530/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true[0m
+2026.05.09 18:51:41 INFO  Shut down connection with build server.[0m
+2026.05.09 18:51:41 INFO  Attempting to connect to the build server...[0m
+2026.05.09 18:51:41 INFO  Found a Bloop server running[0m
+2026.05.09 18:51:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/bsp.trace.json or /Users/habibaelkamary/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.09 18:51:41 INFO  time: Connected to build server in 0.4s[0m
+2026.05.09 18:51:41 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.09 18:51:41 INFO  Created report: Optional.empty[0m
+2026.05.09 18:51:41 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/.reports/bloop/2026-05-09/r_Empty build targets...._18-51-41-759.md")[0m
+2026.05.09 18:51:41 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/.reports/bloop/2026-05-09/r_Empty build targets...._18-51-41-759.md")[0m
+2026.05.09 18:51:41 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/.reports/bloop/2026-05-09/r_Empty build targets...._18-51-41-759.md")[0m
+2026.05.09 18:51:41 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/.reports/bloop/2026-05-09/r_Empty build targets...._18-51-41-759.md")[0m
+2026.05.09 18:51:41 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/.reports/bloop/2026-05-09/r_Empty build targets...._18-51-41-759.md")[0m
+2026.05.09 18:51:45 INFO  time: indexed workspace in 3.97s[0m
+2026.05.09 18:51:45 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+2026.05.09 18:52:41 INFO  skipping build import with status 'Installed'[0m
+2026.05.09 18:52:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:46 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+May 09, 2026 6:52:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4613
+2026.05.09 18:52:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+May 09, 2026 6:52:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4615
+2026.05.09 18:52:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:49 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:49 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:49 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:52:54 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+2026.05.09 18:52:54 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:53:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:53:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:22 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:22 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+May 09, 2026 6:54:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4662
+2026.05.09 18:54:22 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:22 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:22 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:22 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:22 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:33 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:33 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:54:33 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:33 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+May 09, 2026 6:54:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4673
+May 09, 2026 6:54:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4676
+2026.05.09 18:54:33 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:33 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:34 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:41 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:54:41 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:55:13 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:56:29 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:56:29 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:58:41 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:58:42 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+May 09, 2026 6:58:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4725
+2026.05.09 18:58:41 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:58:41 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+May 09, 2026 6:58:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4726
+2026.05.09 18:58:42 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:58:42 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:58:41 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 18:58:43 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+May 09, 2026 6:58:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4736
+2026.05.09 18:58:43 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:01 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:26 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:26 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:26 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+May 09, 2026 7:00:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4738
+2026.05.09 19:00:26 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+May 09, 2026 7:00:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4739
+2026.05.09 19:00:26 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:26 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:27 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:27 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:27 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:00:40 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:01:08 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:01:08 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+May 09, 2026 7:01:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4754
+2026.05.09 19:01:08 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:01:08 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+May 09, 2026 7:01:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4755
+2026.05.09 19:01:08 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m
+2026.05.09 19:01:10 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java. Using fallback presentation compiler.[0m

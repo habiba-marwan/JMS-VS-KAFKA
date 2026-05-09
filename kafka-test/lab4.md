@@ -218,13 +218,18 @@ public class Producer {
 
             ProducerRecord<String, byte[]> record = new ProducerRecord<>("lab-topic", "key", message);
 
-            long start = System.currentTimeMillis();
-            producer.send(record).get(); // to make the call sync as the kafka default is async
-            long end = System.currentTimeMillis();
+            // long start = System.currentTimeMillis();
+            producer.send(record, (metadata, exception) -> {
+                if (exception != null) {
+                    System.err.println("Send failed: " + exception.getMessage());
+                }
+            });
+
+            // long end = System.currentTimeMillis();
 
             // responseTimes.add(end - start);
         }
-
+        producer.flush();
         // sorting to find the median
         // Collections.sort(responseTimes);
         // System.out.println("Median Producer Response Time: " + responseTimes.get(500)
@@ -328,3 +333,118 @@ public class Consumer {
 
 **Output**
 ![Results](consumerLatency.png)
+
+### Throughput
+
+- Trying the built in script **for producer** with :
+--throughput 5000: This limits the script to 5,000 messages per second.
+
+```sh
+./bin/kafka-producer-perf-test.sh \
+--topic lab-topic \
+--num-records 1000000 \
+--record-size 1000 \
+--throughput 5000 \
+--producer-props bootstrap.servers=localhost:9092
+```
+
+**Output**
+![Results](5000.png)
+
+throughput 5000 successfully sent
+
+**Output**
+![Results](10000.png)
+
+throughput 10000 successfully sent
+
+**Output**
+![Results](20000.png)
+
+throughput 20000 successfully sent
+
+**Output**
+![Results](40000.png)
+
+throughput 40000 successfully sent
+
+**Output**
+![Results](100,000.png)
+
+throughput 100,000 successfully sent
+
+**Output**
+![Results](200,000.png)
+
+throughput 200,000  not successfully sent only around 140,000 messages were sent per second
+
+- Trying the built in script **for consumer** with :
+
+```sh
+./bin/kafka-consumer-perf-test.sh \
+--bootstrap-server localhost:9092 \
+--topic lab-topic \
+--messages 1000000 \
+--threads 1 \
+--print-metrics
+```
+
+**Output**
+
+max throuphput for consumer:
+
+![Results](maxThroughput.png)
+
+## Integration
+
+**1. Research Methodology**
+
+To assess Kafka's integration capabilities, I researched the official Apache Kafka Documentation, the Confluent Hub (the primary repository for Kafka connectors), and technical whitepapers regarding Kafka Connect.  
++1
+
+**2. Language Support**
+
+Kafka offers extensive support for various programming languages beyond Java, which is critical for organizations with diverse tech stacks:  
+
+Official Clients: Java and Scala (Native).  
+
+Community & Partner Clients: C/C++, Python, Go, .NET, and Rust.
+
+Protocol Support: Because Kafka uses a binary protocol over TCP, any language capable of socket programming can implement a client.
+
+**3. Data Intensive Ecosystem Integrations**
+
+Kafka’s primary strength in data-intensive use cases is its "Out-of-the-box" integration via Kafka Connect.  
++1
+
+A - Hadoop Ecosystem
+
+HDFS Sink Connector: Allows for seamless streaming of data from Kafka partitions into Hadoop Distributed File System (HDFS) for long-term storage and batch processing.  
+
+Hive Integration: Data can be streamed directly into Hive tables to enable SQL-based analytics on real-time data.
+
+B - Columnar & NoSQL Databases
+
+Cassandra Sink: As specifically requested in the lab, Kafka integrates easily with Cassandra. The connector handles the mapping of Kafka messages to Cassandra rows, supporting high-speed writes to handle data-intensive workloads.  
+
+Elasticsearch: Often used for real-time search and indexing of log data streamed through Kafka.
+
+C - Cloud and Data Warehousing
+
+Amazon S3 / Google Cloud Storage: Standard connectors exist to "archive" Kafka streams into cloud buckets for "Data Lake" architectures.
+
+Snowflake / BigQuery: Direct streaming into modern cloud data warehouses for immediate BI reporting.
+
+**4. Summary of Integration Advantages**
+ 
+- Kafka Connect	-- > A declarative way to link Kafka to databases without writing custom code.
+  
+- Kafka Streams -- > An embedded library to process data while it is in transit (filtering, joining, aggregating).
+
+- Schema Registry	-- > Ensures that data formats (like Avro or Protobuf) stay consistent as they move from a Producer to a Hadoop sink.
+  
+  **5. References**
+
+- Apache Kafka Documentation. "Kafka Connect Queries and Integration."
+
+- Confluent Inc. "Kafka Connectors for Cassandra and Hadoop."
