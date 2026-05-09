@@ -328,3 +328,410 @@ public class Consumer {
 
 **Output**
 ![Results](consumerLatency.png)
+
+
+
+
+
+# JMS – Apache ActiveMQ
+## Overview
+This part evaluates the performance of Java Message Service (JMS) using Apache ActiveMQ as the message broker. The following performance aspects were measured:
+
+- Response Time for Producer API
+- Response Time for Consumer API
+- Maximum Throughput
+- Median Latency between message production and consumption
+
+The implementation was developed in Java using the JMS API and ActiveMQ.
+
+---
+
+# Technologies Used
+
+- Java 11
+- Apache ActiveMQ
+- JMS API (`javax.jms`)
+- Maven
+- Apache JMeter (for throughput testing)
+
+---
+
+# Project Structure
+
+```text
+src/main/java/com/jms/
+
+    Producer.java
+    Consumer.java
+
+message.txt
+```
+
+---
+
+# ActiveMQ Setup
+
+## Start ActiveMQ Broker
+
+Open terminal inside:
+
+```text
+apache-activemq/bin
+```
+
+Run:
+
+```bash
+activemq start
+```
+
+Broker URL used throughout the project:
+
+```text
+tcp://localhost:61616
+```
+
+---
+
+# Queue Names
+
+
+Response Time: broker-queue3
+Latency Benchmark | latency-queue1
+
+---
+
+## 1- Responce Time
+
+# Producer Response Time
+
+## Objective
+Measure the response time of the JMS produce API which is how long the producer API takes to send a message to the broker
+
+## Method
+- 1000 messages were produced.
+- Each message size was 1KB.
+- Time before and after `producer.send()` was measured.
+- Median response time was calculated.
+
+## Some Response time obtained from the produser:
+-Msg Sent 0 : 5 ms
+-Msg Sent 3 : 10 ms
+-Msg Sent 67 : 7 ms
+-Msg Sent 95 : 0 ms
+-Msg Sent 125 : 7 ms
+-Msg Sent 130 : 2 ms
+-Msg Sent 132 : 0 ms
+-Msg Sent 360 : 34 ms
+-Msg Sent 990 : 1 ms
+-Msg Sent 991 : 0 ms
+-Msg Sent 992 : 0 ms
+-Msg Sent 993 : 0 ms
+-Msg Sent 994 : 0 ms
+-Msg Sent 995 : 5 ms
+-Msg Sent 996 : 2 ms
+-Msg Sent 997 : 1 ms
+-Msg Sent 998 : 0 ms
+-Msg Sent 999 : 1 ms
+Median Producer Response Time = 0 ms
+
+# Consumer Response Time
+
+## Objective
+Measure the response time of the JMS consume API which is how long the consumer API takes to receive a message from the broker
+
+## Method
+- 1000 messages were consumed.
+- Time before and after `consumer.receive()` was measured.
+- Median response time was calculated.
+
+## Some Response time obtained from the consumer:
+Receive 0 = 8906 ms
+Receive 1 = 0 ms
+Receive 2 = 0 ms
+Receive 3 = 0 ms
+Receive 6 = 0 ms
+Receive 7 = 0 ms
+Receive 8 = 3 ms
+Receive 165 = 7 ms
+Receive 166 = 0 ms
+Receive 167 = 0 ms
+Receive 168 = 0 ms
+Receive 169 = 0 ms
+Receive 170 = 0 ms
+Receive 171 = 7 ms
+Receive 172 = 1 ms
+Receive 990 = 0 ms
+Receive 991 = 1 ms
+Receive 992 = 0 ms
+Receive 993 = 0 ms
+Receive 994 = 0 ms
+Receive 995 = 0 ms
+Receive 996 = 5 ms
+Receive 997 = 2 ms
+Receive 998 = 0 ms
+Receive 999 = 1 ms
+Median Consume Response Time = 0ms
+---
+
+# 2- Maximum Throughput
+
+## Objective
+Measure the maximum number of successful messages processed per second.
+
+### Producer Throughput Observation
+
+During throughput benchmarking, increasing the target throughput beyond a certain value did not significantly increase the actual achieved throughput. For example, when testing a target throughput of 900000 messages/sec, the actual throughput stabilized around 16500 messages/sec with zero failed requests.
+
+This indicates that the system reached its practical throughput saturation point. At very high target rates, JVM scheduling overhead, ActiveMQ processing capacity, operating system thread scheduling, and Java timing limitations (`Thread.sleep`) became the bottleneck rather than the configured target throughput itself.
+
+Therefore, the maximum practical producer throughput on the test environment was approximately 16K–18K messages/sec for 1KB messages using non-persistent delivery mode on localhost.
+
+
+### Consumer Throughput Observation
+At high target throughput values, the actual throughput saturated around 15K messages/sec due to JVM scheduling limitations, ActiveMQ processing capacity, and operating system timing granularity. Increasing the target throughput beyond this value did not significantly improve the actual achieved throughput.
+
+
+# 4. Median Latency
+
+## Objective
+Measure end-to-end delay introduced by the messaging system.
+
+## Method
+
+1. Consumer started first and continuously listened for messages.
+2. Producer attached a send timestamp to each message.
+3. Consumer retrieved timestamp upon message reception.
+4. Latency was computed for 10,000 messages.
+5. Median latency was calculated.
+
+
+# JMS Usability Evaluation
+
+## Tool Setup Overhead
+
+### ActiveMQ Installation and Configuration
+Setting up JMS using Apache ActiveMQ required the installation and configuration of the following before writing any application code.
+
+The setup process included:
+- Installing Java JDK 11
+- Installing Maven
+- Downloading and extracting Apache ActiveMQ
+- Starting the ActiveMQ broker manually using:
+  
+```bash
+activemq start
+```
+
+- Verifying broker availability through:
+  
+```text
+tcp://localhost:61616
+```
+
+- Accessing the ActiveMQ dashboard through:
+  
+```text
+http://localhost:8161
+```
+
+### Maven Dependency Configuration
+
+The project required manual configuration of Maven dependencies inside `pom.xml`, including:
+- `activemq-client`
+- `javax.jms-api`
+
+Example:
+
+```xml
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-client</artifactId>
+    <version>5.19.6</version>
+</dependency>
+```
+
+### Compatibility Issues
+
+Several compatibility issues were encountered during setup:
+- Version mismatch between Java runtime and ActiveMQ client libraries
+- Differences between `jakarta.jms` and `javax.jms`
+- Maven dependency conflicts
+- JMeter JMS integration issues
+
+These issues increased setup time and required additional troubleshooting before a simple “Hello World” producer/consumer application could run successfully.
+
+---
+
+# Degree of Code Cluttering
+
+## Producer API Complexity
+
+Producing a message in JMS required multiple setup steps before the actual send operation.
+
+The producer implementation included:
+- Creating connection factory
+- Creating broker connection
+- Starting connection
+- Creating session
+- Creating queue
+- Creating producer
+- Creating message
+- Sending message
+
+Example API calls:
+
+```java
+ConnectionFactory factory =
+        new ActiveMQConnectionFactory(...);
+
+Connection connection =
+        factory.createConnection();
+
+Session session =
+        connection.createSession(...);
+
+Queue queue =
+        session.createQueue(...);
+
+MessageProducer producer =
+        session.createProducer(queue);
+
+producer.send(message);
+```
+
+The actual message sending operation:
+```java
+producer.send(message);
+```
+
+---
+
+## Consumer API Complexity
+
+The consumer API also required multiple initialization steps:
+- Connection factory creation
+- Broker connection initialization
+- Session creation
+- Queue creation
+- Consumer creation
+- Message acknowledgement handling
+
+Example:
+
+```java
+MessageConsumer consumer =
+        session.createConsumer(queue);
+
+Message message =
+        consumer.receive();
+
+message.acknowledge();
+```
+
+Manual acknowledgement handling added additional complexity compared to simpler messaging systems.
+
+---
+
+# Number of Lines and API Calls
+
+
+Approximate requirements:
+- The code of both the producer and consumer isnt too long, just 50-70, with 6–8 API initialization calls before actual receiving
+
+---
+
+# Additional Observations
+
+## Advantages
+
+- JMS provides clear separation between producer, broker, and consumer.
+- ActiveMQ dashboard is useful for monitoring queues and messages.
+- JMS supports multiple acknowledgement and delivery modes.
+
+---
+
+# JMS Integrations and Ecosystem Support
+
+## Overview
+
+JMS is a messaging API specification, while Apache ActiveMQ acts as the message broker. JMS can integrate with many enterprise and data-intensive systems, making it suitable for distributed systems, event-driven architectures, and real-time pipelines.
+
+---
+
+# Hadoop and Streaming Ecosystem Integration
+
+JMS integrates with big data and streaming tools mainly through frameworks such as Apache Camel and Spring.
+
+Supported integrations include:
+- Hadoop HDFS
+- Apache Spark
+- Apache Flink
+- Kafka
+- NoSQL databases
+
+Typical use cases:
+- real-time ETL pipelines
+- log streaming
+- event-driven analytics
+
+Although integration is possible, platforms like Spark and Hadoop provide more native support for Kafka than JMS.
+
+---
+
+# Database Integration
+
+JMS can integrate with:
+- Cassandra
+- MongoDB
+- relational databases
+
+using:
+- Apache Camel
+- Spring Framework
+- JDBC consumers
+- custom applications
+
+Example workflow:
+
+```text
+Producer → ActiveMQ → Consumer → Database
+```
+
+This is useful for:
+- asynchronous database updates
+- distributed logging
+- time-series ingestion
+
+---
+
+# Enterprise and Cloud Integration
+
+JMS integrates naturally with:
+- Java EE / Jakarta EE
+- Spring Boot
+- enterprise Java applications
+
+ActiveMQ also supports:
+- Docker
+- Kubernetes
+- REST APIs
+- MQTT
+- WebSockets
+- AMQP
+
+making it suitable for microservices and cloud-native systems.
+
+---
+
+# Monitoring and Management
+
+ActiveMQ provides:
+- web dashboard
+- JMX monitoring
+- Jolokia REST API
+
+which simplify queue monitoring and broker management.
+
+---
+
