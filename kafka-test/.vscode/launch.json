@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "Producer",
+      "mainClass": "com.example.Producer",
+      "buildTarget": "file:/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/?id=kafka-test",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    }
+  ]
+}

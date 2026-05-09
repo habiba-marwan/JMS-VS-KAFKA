@@ -1,0 +1,2346 @@
+2026.05.09 16:25:50 INFO  Started: Metals version 1.6.7 in folders '/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test' for client Visual Studio Code 1.118.1.[0m
+2026.05.09 16:25:50 INFO  Memory monitor started[0m
+2026.05.09 16:25:50 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.09 16:25:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/App.java. Using fallback presentation compiler.[0m
+2026.05.09 16:25:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/App.java. Using fallback presentation compiler.[0m
+2026.05.09 16:26:19 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/App.java. Using fallback presentation compiler.[0m
+2026.05.09 16:26:21 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test -Dmaven.home=/var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals15605390099901625625 -cp /var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals15605390099901625625/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'[0m
+2026.05.09 16:26:24 INFO  [INFO] Scanning for projects...[0m
+2026.05.09 16:26:24 INFO  [INFO] [0m
+2026.05.09 16:26:24 INFO  [INFO] -----------------------< com.example:kafka-test >-----------------------[0m
+2026.05.09 16:26:24 INFO  [INFO] Building kafka-test h[0m
+2026.05.09 16:26:24 INFO  [INFO]   from pom.xml[0m
+2026.05.09 16:26:24 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+2026.05.09 16:26:24 INFO  [INFO] [0m
+2026.05.09 16:26:24 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ kafka-test ---[0m
+2026.05.09 16:26:25 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies[0m
+2026.05.09 16:26:25 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies[0m
+2026.05.09 16:26:25 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:26:25 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:26:25 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:26:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11-sources.jar[0m
+2026.05.09 16:26:25 INFO  Progress (1): 0.9/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 2.3/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 3.6/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 5.0/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 6.4/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 7.7/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 9.1/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 10/151 kB [0m
+2026.05.09 16:26:25 INFO  Progress (1): 12/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 13/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 15/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 16/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 17/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 19/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 20/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 21/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 23/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 24/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 26/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 27/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 28/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 30/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 31/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 32/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 34/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 35/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 36/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 38/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 39/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 41/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 42/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 43/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 45/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 46/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 47/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 49/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 50/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 52/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 53/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 54/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 56/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 60/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 61/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 66/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 70/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 74/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 78/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 83/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 87/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 91/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 95/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 100/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 104/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 108/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 112/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 116/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 121/151 kB[0m
+2026.05.09 16:26:25 INFO  Progress (1): 125/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 129/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 133/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 138/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 142/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 146/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 150/151 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 151 kB    [0m
+2026.05.09 16:26:26 INFO                      [0m
+2026.05.09 16:26:26 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11-sources.jar (151 kB at 157 kB/s)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:26:26 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar[0m
+2026.05.09 16:26:26 INFO  Progress (1): 3.8/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 4.1/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 8.3/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 13/33 kB [0m
+2026.05.09 16:26:26 INFO  Progress (1): 17/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 21/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 25/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 29/33 kB[0m
+2026.05.09 16:26:26 INFO  Progress (1): 33 kB   [0m
+2026.05.09 16:26:26 INFO                     [0m
+2026.05.09 16:26:26 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar (33 kB at 379 kB/s)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  [INFO] Generated .bloop/kafka-test.json[0m
+2026.05.09 16:26:26 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:26:26 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:26:26 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:26:26 INFO  [INFO] Generated .bloop/kafka-test-test.json[0m
+2026.05.09 16:26:26 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 16:26:26 INFO  [INFO] BUILD SUCCESS[0m
+2026.05.09 16:26:26 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 16:26:26 INFO  [INFO] Total time:  2.738 s[0m
+2026.05.09 16:26:26 INFO  [INFO] Finished at: 2026-05-09T16:26:26+03:00[0m
+2026.05.09 16:26:26 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 16:26:26 INFO  time: ran 'mvn bloopInstall' in 5.3s[0m
+2026.05.09 16:26:26 INFO  Attempting to connect to the build server...[0m
+2026.05.09 16:26:26 INFO  No running Bloop server found, starting one.[0m
+2026.05.09 16:26:29 INFO  Starting compilation server[0m
+2026.05.09 16:26:30 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/App.java. Using fallback presentation compiler.[0m
+2026.05.09 16:26:30 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/App.java. Using fallback presentation compiler.[0m
+May 09, 2026 4:26:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.05.09 16:26:30 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/App.java. Using fallback presentation compiler.[0m
+2026.05.09 16:26:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/bsp.trace.json or /Users/habibaelkamary/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.09 16:26:31 INFO  time: Connected to build server in 4.93s[0m
+2026.05.09 16:26:31 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.09 16:26:31 INFO  time: Imported build in 0.19s[0m
+2026.05.09 16:26:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.09 16:26:37 INFO  time: indexed workspace in 5.88s[0m
+2026.05.09 16:26:38 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:26:40 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:26:40 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:26:40 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:26:40 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:26:40 INFO  compiling kafka-test-test (1 java source)[0m
+2026.05.09 16:26:40 INFO  time: compiled kafka-test in 2.04s[0m
+2026.05.09 16:26:41 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:26:41 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:26:41 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:26:41 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:26:41 INFO  time: compiled kafka-test-test in 1.39s[0m
+May 09, 2026 4:26:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.05.09 16:26:53 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:26:54 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:26:54 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:26:54 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:26:54 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:26:54 INFO  time: compiled kafka-test in 1.21s[0m
+May 09, 2026 4:27:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+May 09, 2026 4:27:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+2026.05.09 16:27:19 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:27:19 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:27:19 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:27:19 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:27:19 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:27:19 WARN  javac exited with exit code 1[0m
+2026.05.09 16:27:19 INFO  time: compiled kafka-test in 0.78s[0m
+2026.05.09 16:27:34 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:34 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:35 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java[0m
+2026.05.09 16:27:35 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java[0m
+2026.05.09 16:27:35 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:35 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+May 09, 2026 4:27:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+2026.05.09 16:27:46 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+May 09, 2026 4:27:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+2026.05.09 16:27:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:47 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+May 09, 2026 4:27:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+2026.05.09 16:27:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:50 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:52 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:51 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:53 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:54 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:54 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:55 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:55 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:57 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:57 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:57 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:57 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:57 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:58 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:58 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:58 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:59 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:27:59 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java[0m
+2026.05.09 16:27:59 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:00 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:00 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:00 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:00 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:00 WARN  Running javac-semanticdb failed for file:///Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Output:
+[0m
+May 09, 2026 4:28:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 168
+2026.05.09 16:28:00 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java[0m
+2026.05.09 16:28:03 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:03 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:03 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java[0m
+2026.05.09 16:28:03 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:03 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:04 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:04 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:04 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+May 09, 2026 4:28:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 188
+2026.05.09 16:28:04 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:05 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:04 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:05 WARN  Running javac-semanticdb failed for file:///Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Output:
+[0m
+2026.05.09 16:28:05 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:06 WARN  no build target for: /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java[0m
+2026.05.09 16:28:06 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:06 WARN  Running javac-semanticdb failed for file:///Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Output:
+[0m
+2026.05.09 16:28:05 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:05 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:09 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:09 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:15 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+2026.05.09 16:28:16 INFO  no build target found for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/Consumer.java. Using fallback presentation compiler.[0m
+May 09, 2026 4:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 209
+May 09, 2026 4:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 213
+May 09, 2026 4:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 212
+2026.05.09 16:28:16 INFO  compiling kafka-test (3 java sources)[0m
+2026.05.09 16:28:16 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:28:16 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:28:16 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:28:16 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:28:16 WARN  javac exited with exit code 1[0m
+2026.05.09 16:28:16 INFO  time: compiled kafka-test in 0.61s[0m
+May 09, 2026 4:28:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+May 09, 2026 4:28:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+May 09, 2026 4:28:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+2026.05.09 16:28:24 INFO  compiling kafka-test (3 java sources)[0m
+2026.05.09 16:28:24 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:28:24 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:28:24 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:28:24 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:28:24 WARN  javac exited with exit code 1[0m
+2026.05.09 16:28:24 INFO  time: compiled kafka-test in 0.59s[0m
+May 09, 2026 4:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 249
+May 09, 2026 4:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 251
+2026.05.09 16:30:15 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test -Dmaven.home=/var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals5557068722435797323 -cp /var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals5557068722435797323/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'[0m
+May 09, 2026 4:30:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 16:30:17 INFO  [INFO] Scanning for projects...[0m
+2026.05.09 16:30:17 INFO  [INFO] [0m
+2026.05.09 16:30:17 INFO  [INFO] -----------------------< com.example:kafka-test >-----------------------[0m
+2026.05.09 16:30:17 INFO  [INFO] Building kafka-test h[0m
+2026.05.09 16:30:17 INFO  [INFO]   from pom.xml[0m
+2026.05.09 16:30:17 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+2026.05.09 16:30:17 INFO  [INFO] [0m
+2026.05.09 16:30:17 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ kafka-test ---[0m
+2026.05.09 16:30:19 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies[0m
+2026.05.09 16:30:19 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies[0m
+2026.05.09 16:30:19 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:30:19 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:30:19 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:30:19 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:30:19 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = false)[0m
+2026.05.09 16:30:19 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = false)[0m
+2026.05.09 16:30:19 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = true)[0m
+2026.05.09 16:30:19 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar[0m
+2026.05.09 16:30:20 INFO  Progress (1): 0.9/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 2.3/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 3.6/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 5.0/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 6.4/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 7.7/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 9.1/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 10/58 kB [0m
+2026.05.09 16:30:20 INFO  Progress (1): 12/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 13/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 15/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 16/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 17/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 19/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 20/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 21/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 23/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 24/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 26/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 27/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 28/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 29/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 30/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 31/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 33/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 34/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 36/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 37/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 38/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 40/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 41/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 42/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 44/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 45/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 46/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 48/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 49/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 51/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 52/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 53/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 55/58 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 58 kB   [0m
+2026.05.09 16:30:20 INFO                     [0m
+2026.05.09 16:30:20 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar (58 kB at 44 kB/s)[0m
+2026.05.09 16:30:20 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = true)[0m
+2026.05.09 16:30:20 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 16:30:20 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 16:30:20 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 16:30:20 INFO  Downloading from central: https://repo.maven.apache.org/maven2/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1-sources.jar[0m
+2026.05.09 16:30:20 INFO  Progress (1): 3.8/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 8.0/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 12/101 kB [0m
+2026.05.09 16:30:20 INFO  Progress (1): 16/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 21/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 25/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 29/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 33/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 38/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 42/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 46/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 50/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 54/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 59/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 63/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 67/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 71/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 76/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 80/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 84/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 88/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 93/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 97/101 kB[0m
+2026.05.09 16:30:20 INFO  Progress (1): 101 kB   [0m
+2026.05.09 16:30:20 INFO                      [0m
+2026.05.09 16:30:20 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1-sources.jar (101 kB at 263 kB/s)[0m
+2026.05.09 16:30:20 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 16:30:20 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 16:30:20 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:21 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:22 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:23 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 2.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 2.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 2.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 2.3 MB    [0m
+2026.05.09 16:30:24 INFO                      [0m
+2026.05.09 16:30:24 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar (2.3 MB at 610 kB/s)[0m
+2026.05.09 16:30:24 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 16:30:24 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 16:30:24 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5-sources.jar[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.1/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.2/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.3/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.4/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.5/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:24 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.6/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.7/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.8/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 0.9/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.0/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.1/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.2/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.3/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.4/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:25 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.5/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.6/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.7/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.8/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 1.9/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.0/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.1/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.2/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.3/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.3/2.3 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 2.3 MB    [0m
+2026.05.09 16:30:26 INFO                      [0m
+2026.05.09 16:30:26 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5-sources.jar (2.3 MB at 775 kB/s)[0m
+2026.05.09 16:30:26 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 16:30:26 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:30:26 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:30:26 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:30:26 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:30:26 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 16:30:26 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.9.2/kafka-clients-3.9.2.jar[0m
+2026.05.09 16:30:26 INFO  Progress (1): 0/9.2 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 0/9.2 MB[0m
+2026.05.09 16:30:26 INFO  Progress (1): 0/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.1/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.1/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.1/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.1/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.1/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.1/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.2/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.2/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.2/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.2/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.2/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.2/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.3/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.3/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.3/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.3/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.3/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.3/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.4/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.4/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.4/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.4/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.4/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.4/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.5/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.5/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.5/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.5/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.5/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.5/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.6/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.6/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.6/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.6/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.6/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.6/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:27 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.7/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.8/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.8/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.8/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.8/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.8/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.8/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.9/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.9/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.9/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.9/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.9/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 0.9/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.0/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.0/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.0/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.0/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.0/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.0/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.1/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.1/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.1/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.1/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.1/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.1/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.2/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.2/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.2/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.2/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.2/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.2/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.3/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.3/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.3/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.3/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.3/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.3/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.4/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.4/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.4/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.4/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.4/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.4/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.5/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.5/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.5/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.5/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.5/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.5/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.6/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.6/9.2 MB[0m
+2026.05.09 16:30:28 INFO  Progress (1): 1.6/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.6/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.6/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.6/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.7/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.8/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.8/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.8/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.8/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.8/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.8/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.9/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.9/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.9/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.9/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.9/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 1.9/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.0/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.0/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.0/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.0/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.0/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.0/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.1/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.1/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.1/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.1/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.1/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.1/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.2/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.2/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.2/9.2 MB[0m
+2026.05.09 16:30:30 INFO  Progress (1): 2.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.4/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.4/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.4/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.4/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.4/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.4/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.5/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.5/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.5/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.5/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.5/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.5/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.6/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.6/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.6/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.6/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.6/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.6/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.7/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.8/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.8/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.8/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.8/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.8/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.8/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.9/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.9/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.9/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.9/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.9/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 2.9/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.0/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.0/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.0/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.0/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.0/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.0/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.1/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.1/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.1/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.1/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.1/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.1/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.2/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.3/9.2 MB[0m
+2026.05.09 16:30:31 INFO  Progress (1): 3.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.4/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.4/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.4/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.4/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.4/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.4/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.5/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.5/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.5/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.5/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.5/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.5/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.6/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.7/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.7/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.7/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.7/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.7/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.7/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.8/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.8/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.8/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.8/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.8/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.8/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.9/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.9/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.9/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.9/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.9/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 3.9/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.0/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.0/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.0/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.0/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.0/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.0/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.1/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.1/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.1/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.1/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.1/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.1/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.2/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.2/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.2/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.2/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.2/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.2/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.3/9.2 MB[0m
+2026.05.09 16:30:32 INFO  Progress (1): 4.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.5/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.5/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.5/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.5/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.5/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.5/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.6/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.7/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.7/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.7/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.7/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.7/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.7/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.8/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.8/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.8/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.8/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.8/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.8/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.9/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.9/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.9/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.9/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.9/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 4.9/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.0/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.0/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.0/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.0/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.0/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.0/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.1/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.1/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.1/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.1/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.1/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.1/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.2/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.2/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.2/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.2/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.2/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.2/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.3/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.4/9.2 MB[0m
+2026.05.09 16:30:33 INFO  Progress (1): 5.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 5.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.0/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.0/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.0/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.0/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.0/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.0/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.1/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.1/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.1/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.1/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.1/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.1/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.2/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.2/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.2/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.2/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.2/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.2/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.3/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.3/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.3/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.3/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.3/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.3/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.4/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.5/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.6/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.7/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.8/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.9/9.2 MB[0m
+2026.05.09 16:30:34 INFO  Progress (1): 6.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 6.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 6.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 6.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.6/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.6/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.6/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.6/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.6/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.6/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.7/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.7/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.7/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.7/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.7/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.7/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.8/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.8/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.8/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.8/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.8/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.8/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 7.9/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.0/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.1/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.2/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.3/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.4/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:35 INFO  Progress (1): 8.5/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.6/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.6/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.6/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.6/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.6/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.6/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.7/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.7/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.7/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.7/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.7/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.7/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.8/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.8/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.8/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.8/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.8/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.8/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.9/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.9/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.9/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.9/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.9/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 8.9/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.0/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.0/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.0/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.0/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.0/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.0/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.1/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.1/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.1/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.1/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.1/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.1/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.2/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.2/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.2/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.2/9.2 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 9.2 MB    [0m
+2026.05.09 16:30:36 INFO                      [0m
+2026.05.09 16:30:36 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.9.2/kafka-clients-3.9.2.jar (9.2 MB at 1.1 MB/s)[0m
+2026.05.09 16:30:36 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 16:30:36 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 16:30:36 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.9.2/kafka-clients-3.9.2-sources.jar[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.1/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.1/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.1/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.1/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.1/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.1/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.2/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.2/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.2/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.2/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.2/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.2/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.3/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.3/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.3/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.3/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.3/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.3/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.4/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.4/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.4/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.4/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.4/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.4/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.5/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.6/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.6/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.6/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.6/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.6/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.6/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.7/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.7/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.7/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.7/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.7/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.7/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.8/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.8/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.8/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.8/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.8/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.8/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.9/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.9/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.9/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.9/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.9/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 0.9/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 1.0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 1.0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 1.0/3.7 MB[0m
+2026.05.09 16:30:36 INFO  Progress (1): 1.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.8/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.8/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.8/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.8/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.8/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.8/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.9/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.9/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.9/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.9/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.9/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 1.9/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.0/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.1/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.2/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.3/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.4/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.5/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.6/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.7/3.7 MB[0m
+2026.05.09 16:30:37 INFO  Progress (1): 2.7/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.7/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.7/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.7/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.8/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.8/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.8/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.8/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.8/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.8/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.9/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.9/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.9/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.9/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.9/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 2.9/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.0/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.0/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.0/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.0/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.0/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.0/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.1/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.1/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.1/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.1/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.1/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.1/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.2/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.2/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.2/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.2/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.2/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.2/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.3/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.3/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.3/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.3/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.3/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.3/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.4/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.5/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.5/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.5/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.5/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.5/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.5/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.6/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.6/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.6/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.6/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.6/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.6/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.7/3.7 MB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 3.7 MB    [0m
+2026.05.09 16:30:38 INFO                      [0m
+2026.05.09 16:30:38 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.9.2/kafka-clients-3.9.2-sources.jar (3.7 MB at 1.4 MB/s)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-4/zstd-jni-1.5.6-4-sources.jar[0m
+2026.05.09 16:30:38 INFO  Progress (1): 7.7/42 kB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 12/42 kB [0m
+2026.05.09 16:30:38 INFO  Progress (1): 29/42 kB[0m
+2026.05.09 16:30:38 INFO  Progress (1): 42 kB   [0m
+2026.05.09 16:30:38 INFO                     [0m
+2026.05.09 16:30:38 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-4/zstd-jni-1.5.6-4-sources.jar (42 kB at 363 kB/s)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Generated .bloop/kafka-test.json[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 16:30:38 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 16:30:38 INFO  [INFO] Generated .bloop/kafka-test-test.json[0m
+2026.05.09 16:30:38 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 16:30:38 INFO  [INFO] BUILD SUCCESS[0m
+2026.05.09 16:30:38 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 16:30:38 INFO  [INFO] Total time:  21.700 s[0m
+2026.05.09 16:30:38 INFO  [INFO] Finished at: 2026-05-09T16:30:39+03:00[0m
+2026.05.09 16:30:38 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 16:30:39 INFO  time: ran 'mvn bloopInstall' in 24s[0m
+2026.05.09 16:30:39 INFO  Disconnecting from Bloop session...[0m
+2026.05.09 16:30:39 INFO  Shut down connection with build server.[0m
+2026.05.09 16:30:39 INFO  Attempting to connect to the build server...[0m
+2026.05.09 16:30:39 INFO  Found a Bloop server running[0m
+2026.05.09 16:30:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/bsp.trace.json or /Users/habibaelkamary/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.09 16:30:39 INFO  time: Connected to build server in 0.22s[0m
+2026.05.09 16:30:39 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.09 16:30:46 INFO  time: indexed workspace in 6.73s[0m
+2026.05.09 16:30:46 INFO  compiling kafka-test (3 java sources)[0m
+2026.05.09 16:30:46 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:30:46 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:30:46 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:30:46 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:30:46 WARN  javac exited with exit code 1[0m
+2026.05.09 16:30:46 INFO  time: compiled kafka-test in 0.58s[0m
+May 09, 2026 4:31:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 263
+May 09, 2026 4:31:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 271
+May 09, 2026 4:32:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+May 09, 2026 4:32:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+2026.05.09 16:32:24 INFO  compiling kafka-test (3 java sources)[0m
+2026.05.09 16:32:24 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:32:24 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:32:24 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:32:24 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:32:24 WARN  javac exited with exit code 1[0m
+2026.05.09 16:32:24 INFO  time: compiled kafka-test in 0.57s[0m
+2026.05.09 16:33:09 INFO  compiling kafka-test (3 java sources)[0m
+2026.05.09 16:33:09 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:33:09 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:33:09 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:33:09 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:33:09 WARN  javac exited with exit code 1[0m
+2026.05.09 16:33:09 INFO  time: compiled kafka-test in 0.72s[0m
+May 09, 2026 4:33:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 371
+May 09, 2026 4:33:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 389
+2026.05.09 16:33:28 INFO  compiling kafka-test (3 java sources)[0m
+2026.05.09 16:33:29 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:33:29 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:33:29 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:33:29 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:33:29 INFO  time: compiled kafka-test in 1.85s[0m
+May 09, 2026 4:39:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 446
+May 09, 2026 4:40:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 449
+May 09, 2026 4:40:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 451
+May 09, 2026 4:41:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 480
+May 09, 2026 4:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 523
+May 09, 2026 4:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 525
+May 09, 2026 4:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 526
+May 09, 2026 4:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+May 09, 2026 4:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+May 09, 2026 4:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 652
+2026.05.09 16:41:50 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:41:51 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:41:51 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:41:51 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:41:51 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:41:51 INFO  time: compiled kafka-test in 1.42s[0m
+May 09, 2026 4:42:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 738
+May 09, 2026 4:42:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 739
+May 09, 2026 4:42:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 748
+May 09, 2026 4:42:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 749
+May 09, 2026 4:42:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 802
+May 09, 2026 4:42:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 804
+2026.05.09 16:42:57 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:42:58 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:42:58 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:42:58 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:42:58 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:42:58 INFO  time: compiled kafka-test in 1.46s[0m
+2026.05.09 16:42:59 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:43:00 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+2026.05.09 16:43:01 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:43:01 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:43:01 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:43:01 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:43:01 INFO  time: compiled kafka-test in 1.55s[0m
+May 09, 2026 4:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 957
+May 09, 2026 4:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 975
+May 09, 2026 4:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 976
+May 09, 2026 4:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1032
+May 09, 2026 4:43:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1034
+2026.05.09 16:44:27 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:44:28 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:44:28 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:44:28 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:44:28 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:44:28 INFO  time: compiled kafka-test in 1.38s[0m
+2026.05.09 16:49:54 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:49:55 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:49:55 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:49:55 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:49:55 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:49:55 INFO  time: compiled kafka-test in 1.5s[0m
+May 09, 2026 4:50:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1160
+May 09, 2026 4:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1168
+May 09, 2026 4:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1169
+2026.05.09 16:50:18 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Producer.java[0m
+2026.05.09 16:50:18 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:50:20 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:50:20 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:50:20 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:50:20 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:50:20 INFO  time: compiled kafka-test in 1.74s[0m
+May 09, 2026 4:50:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1319
+2026.05.09 16:50:49 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:50:50 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:50:50 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:50:50 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:50:50 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:50:50 INFO  time: compiled kafka-test in 1.44s[0m
+May 09, 2026 4:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1429
+May 09, 2026 4:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1431
+2026.05.09 16:52:06 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 16:52:08 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 16:52:08 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:52:08 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 16:52:08 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 16:52:08 INFO  time: compiled kafka-test in 1.74s[0m
+May 09, 2026 4:55:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1462
+May 09, 2026 4:55:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1465
+May 09, 2026 4:55:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1472
+May 09, 2026 4:55:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1477
+May 09, 2026 4:55:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1479
+May 09, 2026 5:16:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1486
+May 09, 2026 5:16:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1489
+May 09, 2026 5:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1496
+2026.05.09 17:17:10 INFO  compiling kafka-test (1 java source)[0m
+May 09, 2026 5:17:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1578
+May 09, 2026 5:17:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1580
+2026.05.09 17:17:12 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:17:12 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:17:12 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:17:12 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:17:12 INFO  time: compiled kafka-test in 2.62s[0m
+May 09, 2026 5:17:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1634
+May 09, 2026 5:17:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1635
+May 09, 2026 5:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1750
+2026.05.09 17:18:05 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:18:06 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:18:06 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:18:06 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:18:06 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:18:06 INFO  time: compiled kafka-test in 1.59s[0m
+May 09, 2026 5:18:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1852
+May 09, 2026 5:18:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1854
+May 09, 2026 5:18:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1954
+May 09, 2026 5:18:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1955
+May 09, 2026 5:18:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1952
+2026.05.09 17:18:31 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:18:32 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:18:32 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:18:32 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:18:32 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:18:32 INFO  time: compiled kafka-test in 1.61s[0m
+May 09, 2026 5:18:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1994
+May 09, 2026 5:18:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1995
+May 09, 2026 5:18:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1996
+2026.05.09 17:18:54 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:18:56 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:18:56 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:18:56 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:18:56 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:18:56 INFO  time: compiled kafka-test in 1.57s[0m
+May 09, 2026 5:19:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2181
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2178
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2184
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2189
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2188
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2186
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2192
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2194
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2193
+May 09, 2026 5:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2195
+2026.05.09 17:19:27 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:19:29 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:19:29 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:19:29 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:19:29 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:19:29 INFO  time: compiled kafka-test in 1.84s[0m
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2321
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2322
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2323
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2318
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2327
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2332
+May 09, 2026 5:19:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2331
+2026.05.09 17:19:53 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 17:19:53 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:19:55 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:19:55 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:19:55 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:19:55 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:19:55 INFO  time: compiled kafka-test in 1.63s[0m
+May 09, 2026 5:21:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2390
+2026.05.09 17:21:19 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:21:21 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:21:21 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:21:21 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:21:21 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:21:21 INFO  time: compiled kafka-test in 1.55s[0m
+May 09, 2026 5:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2430
+May 09, 2026 5:21:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2433
+May 09, 2026 5:22:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2474
+2026.05.09 17:23:22 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 17:23:23 INFO  compiling kafka-test (1 java source)[0m
+May 09, 2026 5:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2564
+2026.05.09 17:23:24 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:23:24 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:23:24 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:23:24 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:23:24 INFO  time: compiled kafka-test in 1.81s[0m
+May 09, 2026 5:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2578
+2026.05.09 17:24:03 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:24:05 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:24:05 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:24:05 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:24:05 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:24:05 INFO  time: compiled kafka-test in 1.6s[0m
+May 09, 2026 5:27:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2690
+May 09, 2026 5:27:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2693
+May 09, 2026 5:27:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2701
+May 09, 2026 5:27:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2710
+May 09, 2026 5:27:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2713
+2026.05.09 17:28:58 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:28:59 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:28:59 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:28:59 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:28:59 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:28:59 WARN  javac exited with exit code 1[0m
+2026.05.09 17:28:59 INFO  time: compiled kafka-test in 1.47s[0m
+2026.05.09 17:29:06 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:29:08 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:29:08 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:29:08 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:29:08 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:29:08 WARN  javac exited with exit code 1[0m
+2026.05.09 17:29:08 INFO  time: compiled kafka-test in 1.53s[0m
+2026.05.09 17:29:14 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:29:16 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:29:16 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:29:16 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:29:16 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:29:16 WARN  javac exited with exit code 1[0m
+2026.05.09 17:29:16 INFO  time: compiled kafka-test in 1.33s[0m
+May 09, 2026 5:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2879
+May 09, 2026 5:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2880
+May 09, 2026 5:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2882
+May 09, 2026 5:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2883
+May 09, 2026 5:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2881
+2026.05.09 17:29:51 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:29:53 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:29:53 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:29:53 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:29:53 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:29:53 INFO  time: compiled kafka-test in 1.68s[0m
+May 09, 2026 5:29:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2926
+May 09, 2026 5:30:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 09, 2026 5:30:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 09, 2026 5:30:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 17:32:12 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test -Dmaven.home=/var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals15289005052545113387 -cp /var/folders/0x/tncxxf5s4kq97hmqfxd811v80000gp/T/metals15289005052545113387/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'[0m
+2026.05.09 17:32:14 INFO  [INFO] Scanning for projects...[0m
+2026.05.09 17:32:14 INFO  [INFO] [0m
+2026.05.09 17:32:14 INFO  [INFO] -----------------------< com.example:kafka-test >-----------------------[0m
+2026.05.09 17:32:14 INFO  [INFO] Building kafka-test h[0m
+2026.05.09 17:32:14 INFO  [INFO]   from pom.xml[0m
+2026.05.09 17:32:14 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+2026.05.09 17:32:14 INFO  [INFO] [0m
+2026.05.09 17:32:14 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ kafka-test ---[0m
+2026.05.09 17:32:16 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies[0m
+2026.05.09 17:32:16 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:16 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36-sources.jar[0m
+2026.05.09 17:32:16 INFO  Progress (1): 0.9/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 2.3/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 3.6/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 5.0/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 6.4/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 7.3/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 8.7/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 10/15 kB [0m
+2026.05.09 17:32:16 INFO  Progress (1): 11/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 13/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 14/15 kB[0m
+2026.05.09 17:32:16 INFO  Progress (1): 15 kB   [0m
+2026.05.09 17:32:16 INFO                     [0m
+2026.05.09 17:32:16 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36-sources.jar (15 kB at 25 kB/s)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 17:32:16 INFO  [INFO] Generated .bloop/kafka-test.json[0m
+2026.05.09 17:32:16 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 17:32:16 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: at.yawk.lz4:lz4-java:jar:1.10.1:runtime (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.xerial.snappy:snappy-java:jar:1.1.10.5:runtime (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.apache.kafka:kafka-clients:jar:3.9.2:compile (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: org.slf4j:slf4j-simple:jar:1.7.36:compile (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = false)[0m
+2026.05.09 17:32:17 INFO  [INFO] Resolving artifact: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] SUCCESS: com.github.luben:zstd-jni:jar:1.5.6-4:runtime (sources = true)[0m
+2026.05.09 17:32:17 INFO  [INFO] Generated .bloop/kafka-test-test.json[0m
+2026.05.09 17:32:17 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 17:32:17 INFO  [INFO] BUILD SUCCESS[0m
+2026.05.09 17:32:17 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 17:32:17 INFO  [INFO] Total time:  2.278 s[0m
+2026.05.09 17:32:17 INFO  [INFO] Finished at: 2026-05-09T17:32:17+03:00[0m
+2026.05.09 17:32:17 INFO  [INFO] ------------------------------------------------------------------------[0m
+2026.05.09 17:32:17 INFO  time: ran 'mvn bloopInstall' in 4.63s[0m
+2026.05.09 17:32:17 INFO  Disconnecting from Bloop session...[0m
+2026.05.09 17:32:17 INFO  Shut down connection with build server.[0m
+2026.05.09 17:32:17 INFO  Attempting to connect to the build server...[0m
+2026.05.09 17:32:17 INFO  Found a Bloop server running[0m
+2026.05.09 17:32:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/bsp.trace.json or /Users/habibaelkamary/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.09 17:32:17 INFO  time: Connected to build server in 0.31s[0m
+2026.05.09 17:32:17 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.09 17:32:21 INFO  time: indexed workspace in 4.21s[0m
+May 09, 2026 5:32:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2980
+May 09, 2026 5:32:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2982
+May 09, 2026 5:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2995
+May 09, 2026 5:33:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3006
+May 09, 2026 5:33:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3008
+May 09, 2026 5:35:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3017
+May 09, 2026 5:37:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3028
+May 09, 2026 5:37:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3031
+May 09, 2026 5:38:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3046
+May 09, 2026 5:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3057
+May 09, 2026 5:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3059
+May 09, 2026 5:43:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3098
+2026.05.09 17:43:58 INFO  compiling kafka-test (2 java sources)[0m
+2026.05.09 17:43:58 INFO  Created report: Optional[file:///Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java][0m
+2026.05.09 17:43:58 INFO  QDox parse error in file:///Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java (full report at: "/Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/.metals/.reports/metals-full/2026-05-09/r_qdox-error_(kafka-test)_17-43-57-754.md")[0m
+2026.05.09 17:43:58 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:43:58 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:43:58 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:43:58 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:43:58 WARN  javac exited with exit code 1[0m
+2026.05.09 17:43:58 INFO  time: compiled kafka-test in 0.74s[0m
+2026.05.09 17:46:01 INFO  compiling kafka-test (2 java sources)[0m
+2026.05.09 17:46:02 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:46:02 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:46:02 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:46:02 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:46:02 INFO  time: compiled kafka-test in 1.85s[0m
+May 09, 2026 5:48:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3207
+May 09, 2026 5:56:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3218
+May 09, 2026 5:56:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3260
+May 09, 2026 5:57:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3329
+2026.05.09 17:57:07 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:57:09 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:57:09 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:57:09 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:57:09 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:57:09 INFO  time: compiled kafka-test in 1.51s[0m
+May 09, 2026 5:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3416
+May 09, 2026 5:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3420
+May 09, 2026 5:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3415
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3422
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3423
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3424
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3425
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3426
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3427
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3428
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3429
+May 09, 2026 5:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3431
+May 09, 2026 5:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3462
+May 09, 2026 5:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3464
+May 09, 2026 5:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3470
+May 09, 2026 5:57:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3506
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3509
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3510
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3511
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3512
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3513
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3514
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3515
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3516
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3517
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3518
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3520
+May 09, 2026 5:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3521
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3552
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3554
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3556
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3557
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3558
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3562
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3559
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3565
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3560
+May 09, 2026 5:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3566
+May 09, 2026 5:58:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3639
+May 09, 2026 5:58:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3641
+May 09, 2026 5:58:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3643
+May 09, 2026 5:58:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3645
+May 09, 2026 5:58:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3646
+May 09, 2026 5:58:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3652
+May 09, 2026 5:58:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3653
+May 09, 2026 5:58:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3654
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3656
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3657
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3659
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3658
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3660
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3661
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3662
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3667
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3664
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3665
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3670
+May 09, 2026 5:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3673
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3679
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3680
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3681
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3683
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3684
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3687
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3688
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3690
+May 09, 2026 5:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3691
+2026.05.09 17:58:08 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:58:10 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:58:10 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:58:10 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:58:10 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:58:10 INFO  time: compiled kafka-test in 1.6s[0m
+May 09, 2026 5:58:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3715
+2026.05.09 17:58:25 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:58:27 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:58:27 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:58:27 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:58:27 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:58:27 INFO  time: compiled kafka-test in 1.89s[0m
+May 09, 2026 5:58:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3731
+May 09, 2026 5:58:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3765
+2026.05.09 17:58:43 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 17:58:44 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 17:58:44 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:58:44 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 17:58:44 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 17:58:44 INFO  time: compiled kafka-test in 1.43s[0m
+May 09, 2026 6:00:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3780
+May 09, 2026 6:00:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3909
+May 09, 2026 6:00:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalStateException: java.lang.AssertionError
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: java.lang.AssertionError
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IllegalStateException: java.lang.AssertionError
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:383)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.getTrees(JavaFoldingRangeExtractor.scala:126)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.extract(JavaFoldingRangeExtractor.scala:169)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:52)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:48)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1262)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	... 3 more
+Caused by: java.lang.AssertionError
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.visitTree(Attr.java:5128)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$Visitor.visitCatch(JCTree.java:3423)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCCatch.accept(JCTree.java:1483)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribTree(Attr.java:677)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.visitErroneous(Attr.java:5120)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCErroneous.accept(JCTree.java:3256)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribTree(Attr.java:677)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribExpr(Attr.java:730)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.visitExec(Attr.java:2277)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1584)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribTree(Attr.java:677)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribStat(Attr.java:751)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribStats(Attr.java:770)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.visitBlock(Attr.java:1449)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1091)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribTree(Attr.java:677)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribStat(Attr.java:751)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.visitMethodDef(Attr.java:1239)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:921)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribTree(Attr.java:677)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribStat(Attr.java:751)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribClassBody(Attr.java:5463)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribClass(Attr.java:5354)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attribClass(Attr.java:5185)
+	at jdk.compiler/com.sun.tools.javac.comp.Attr.attrib(Attr.java:5143)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.attribute(JavaCompiler.java:1320)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.attribute(JavaCompiler.java:1293)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:404)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$analyze$1(JavacTaskImpl.java:379)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:379)
+	... 11 more
+
+2026.05.09 18:02:41 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:02:42 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:02:43 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:02:43 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:02:43 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:02:43 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:02:43 WARN  javac exited with exit code 1[0m
+2026.05.09 18:02:43 INFO  time: compiled kafka-test in 1.35s[0m
+2026.05.09 18:02:43 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:03:49 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+May 09, 2026 6:03:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4071
+2026.05.09 18:03:57 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:03:59 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:04:01 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:04:03 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:04:03 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:04:03 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:04:03 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:04:03 INFO  time: compiled kafka-test in 1.83s[0m
+2026.05.09 18:04:08 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:04:10 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:04:10 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:04:10 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:04:10 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:04:10 INFO  time: compiled kafka-test in 1.62s[0m
+May 09, 2026 6:06:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4161
+May 09, 2026 6:06:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4163
+May 09, 2026 6:06:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4171
+May 09, 2026 6:10:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4183
+May 09, 2026 6:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4195
+May 09, 2026 6:10:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4204
+2026.05.09 18:10:33 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:10:34 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:10:34 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:10:34 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:10:34 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:10:34 INFO  time: compiled kafka-test in 1.85s[0m
+May 09, 2026 6:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4267
+2026.05.09 18:20:58 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:21:00 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:21:00 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:00 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:00 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:21:00 INFO  time: compiled kafka-test in 1.79s[0m
+2026.05.09 18:21:10 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:21:11 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:21:12 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:21:12 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:12 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:12 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:21:12 INFO  time: compiled kafka-test in 1.55s[0m
+2026.05.09 18:21:19 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:21:21 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:21:21 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:21 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:21 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:21:21 INFO  time: compiled kafka-test in 2.06s[0m
+2026.05.09 18:21:55 WARN  Could not load snapshot text for /Users/habibaelkamary/Desktop/College(new)/DDIA/Labs/lab_4/JMS-VS-KAFKA/kafka-test/src/main/java/com/example/Consumer.java[0m
+2026.05.09 18:21:55 INFO  compiling kafka-test (1 java source)[0m
+2026.05.09 18:21:56 WARN  javac: [options] bootstrap class path not set in conjunction with -source 7[0m
+2026.05.09 18:21:56 WARN  javac: [options] source value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:56 WARN  javac: [options] target value 7 is obsolete and will be removed in a future release[0m
+2026.05.09 18:21:56 WARN  javac: [options] To suppress warnings about obsolete options, use -Xlint:-options.[0m
+2026.05.09 18:21:56 INFO  time: compiled kafka-test in 1.99s[0m
+May 09, 2026 6:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4424
+May 09, 2026 6:24:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4432
